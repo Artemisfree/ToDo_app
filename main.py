@@ -21,7 +21,7 @@ class ToDoApp(QWidget):
 
         self.item_list = QListWidget(self)
 
-        self.delete_button = QPushButton('Удалить выбранный', self)
+        self.delete_button = QPushButton('Удалить', self)
         self.delete_button.clicked.connect(self.delete_item)
 
         layout = QVBoxLayout()
